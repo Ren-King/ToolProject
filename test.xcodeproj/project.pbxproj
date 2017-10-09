@@ -11,8 +11,6 @@
 		4869717B7CBC11A951AD4F38 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA51929DBD5BA2906E79F7A /* libPods-test.a */; };
 		733E89051F6A6EEC00165180 /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 733E89041F6A6EEC00165180 /* NetWorkManager.m */; };
 		733E89071F6A6FCB00165180 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 733E89061F6A6FCB00165180 /* libAFNetworking.a */; };
-		734043FD1F71FF3C00883CC8 /* FDCRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734043FB1F71FF3C00883CC8 /* FDCRegistViewController.m */; };
-		734043FE1F71FF3C00883CC8 /* FDCRegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 734043FC1F71FF3C00883CC8 /* FDCRegistViewController.xib */; };
 		734044001F72026900883CC8 /* sanjiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 734043FF1F72026900883CC8 /* sanjiao@2x.png */; };
 		7340825B1F67D3D3006DE571 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7340825A1F67D3D3006DE571 /* UIColor+RGB.m */; };
 		735143281F5D30CA00063988 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 735143271F5D30CA00063988 /* home.png */; };
@@ -72,9 +70,6 @@
 		733E89031F6A6EEC00165180 /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
 		733E89041F6A6EEC00165180 /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
 		733E89061F6A6FCB00165180 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
-		734043FA1F71FF3C00883CC8 /* FDCRegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCRegistViewController.h; sourceTree = "<group>"; };
-		734043FB1F71FF3C00883CC8 /* FDCRegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCRegistViewController.m; sourceTree = "<group>"; };
-		734043FC1F71FF3C00883CC8 /* FDCRegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDCRegistViewController.xib; sourceTree = "<group>"; };
 		734043FF1F72026900883CC8 /* sanjiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sanjiao@2x.png"; sourceTree = "<group>"; };
 		734082591F67D3D3006DE571 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
 		7340825A1F67D3D3006DE571 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
@@ -206,9 +201,6 @@
 				7351432B1F5D326500063988 /* h2.jpg */,
 				735143271F5D30CA00063988 /* home.png */,
 				734043FF1F72026900883CC8 /* sanjiao@2x.png */,
-				734043FA1F71FF3C00883CC8 /* FDCRegistViewController.h */,
-				734043FB1F71FF3C00883CC8 /* FDCRegistViewController.m */,
-				734043FC1F71FF3C00883CC8 /* FDCRegistViewController.xib */,
 				7386123B1F56599F00416DC2 /* RZToolManager.h */,
 				7386123C1F56599F00416DC2 /* RZToolManager.m */,
 				738612111F56594F00416DC2 /* Main.storyboard */,
@@ -391,7 +383,6 @@
 				735924EF1F59528500AFF7A3 /* win_4_0.jpg in Resources */,
 				735143281F5D30CA00063988 /* home.png in Resources */,
 				735924ED1F59528500AFF7A3 /* win_2_0.jpg in Resources */,
-				734043FE1F71FF3C00883CC8 /* FDCRegistViewController.xib in Resources */,
 				738612181F56594F00416DC2 /* LaunchScreen.storyboard in Resources */,
 				735924E11F59506D00AFF7A3 /* Unknown.png in Resources */,
 				736843B01F666F0100B6AF8E /* beauty_coupon_green_right@3x.png in Resources */,
@@ -577,7 +568,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				738612101F56594F00416DC2 /* ViewController.m in Sources */,
-				734043FD1F71FF3C00883CC8 /* FDCRegistViewController.m in Sources */,
 				7386120D1F56594F00416DC2 /* AppDelegate.m in Sources */,
 				7386120A1F56594F00416DC2 /* main.m in Sources */,
 				7340825B1F67D3D3006DE571 /* UIColor+RGB.m in Sources */,
