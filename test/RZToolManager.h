@@ -5,6 +5,23 @@
 //  Created by nykj-mac-03 on 2017/8/30.
 //  Copyright © 2017年 12412. All rights reserved.
 //
+
+// 适配 iPhone X
+#define kSCREEN_WIDTH          ([UIScreen mainScreen].bounds.size.width)
+#define kSCREEN_HEIGHT         ([UIScreen mainScreen].bounds.size.height)
+
+#define isIPhoneX     (kSCREEN_WIDTH == 375.f && kSCREEN_HEIGHT == 812.f)
+//导航栏高度
+#define  MANavBarHeight  isIPhoneX ? 88 : 64
+//底部Tabbar 高度
+#define MATabBarHeight  isIPhoneX ? 83 : 49
+//状态栏高度
+#define  MAStatusBarHeight  isIPhoneX ? 44 : 20
+
+
+
+
+
 //字符串是否为空
 
 #define StringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
